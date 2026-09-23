@@ -116,10 +116,6 @@ export default function PostListPage() {
             </Link>
           </div>
 
-          {/* <nav className="hidden md:flex items-center gap-8 text-sm font-medium text-[#718096]">
-            <Link to="/" className="text-[#2D312E] font-semibold">Blog</Link>
-          </nav> --> */}
-
           {/* Expandable Search Input */}
           <div className="flex items-center gap-2">
             {isSearchOpen ? (

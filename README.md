@@ -13,7 +13,10 @@ $ . venv/bin/activate
 (venv) $ python manage.py migrate
 (venv) $ python manage.py runserver
 
+--------------------------------------------
+
 [the frontend (on another shell tab)]
+
 $ cd frontend
 $ npm install
 $ npm run dev
